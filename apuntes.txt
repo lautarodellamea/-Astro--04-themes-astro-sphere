@@ -1,0 +1,14 @@
+Intalacion de un tema: npm create astro@latest -- --template=markhorn-dev/astro-sphere
+nos evitamos clonar el repo, despues del template va el nombre del propietario de github y el repo
+
+Para ver el listado de todos los paquetes que se pueden o tienen actualizacion (podemos htenerlo de maneja global o con npx)
+npm install -g npm-check-updates
+
+Para ver el listado de todos los paquetes que se pueden o tienen actualizacion
+npx npm-check-updates
+
+Con la bandera -u procedemos a actualizar
+npx npm-check-updates -u
+
+y por ultimo
+npm install
